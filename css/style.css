@@ -1,0 +1,47 @@
+.ques {
+	padding: 20px 40px;
+	background-color: green;
+	cursor: pointer;
+}
+.ans {
+	padding: 20px 40px;
+	background-color: violet;
+	display: none;
+}
+/*dragble start*/
+#draggable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 22px;
+	border-radius: 50%;
+	text-align: center;
+}
+/*shortable*/
+#sortable { list-style-type: none; 
+ 	margin: 0; 
+    padding: 0; 
+    width: 60%; 
+}
+#sortable li { margin: 0 3px 25px 3px; 
+  	padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em;
+}
+  #sortable li span { position: absolute; 
+  	margin-left: -1.3em; 
+}
+/*Controlgroup*/
+.ui-controlgroup-vertical {
+  width: 150px;
+}
+.ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+.ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+  text-align: center;
+}
+#car-type-button {
+  width: 120px;
+}
+.ui-controlgroup-horizontal .ui-spinner-input {
+  width: 20px;
+}
+/*Datepicker*/
